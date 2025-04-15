@@ -33,7 +33,7 @@ def main():
         if key_lst[pg.K_RIGHT]:
             kk_rct.move_ip((1, 0))
         if key_lst[pg.K_LEFT]:
-            kk_rct.move_ip((-1, 0))
+            kk_rct.move_ip((-1, 0))#練習10
         pg.display.update()
         tmr += 1        
         clock.tick(200)#練習5
